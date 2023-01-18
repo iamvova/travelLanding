@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 
 
@@ -12,8 +13,298 @@
 </head>
 <body>
 
-    
-    <h1>Hello world</h1>
+
+<header class="header wrapper">
+    <div class="header__logo"><img src="./assets/logo.png" alt="Logo"></div>
+    <ul>
+        <li><a href="#destination">Desitnation</a></li>
+        <li><a href="#hotels">Hotels</a></li>
+        <li><a href="#flight">Flights</a></li>
+        <li><a href="#booking">Booking</a></li>
+        <li>Login</li>
+        <li class="header__btn">Sign up</li>
+        <li class="header__selection">
+            <select name="select"> 
+                <option value="value1" selected>EN</option>
+                <option value="value2">UA</option>
+          </select>
+        </li>
+    </ul>
+    <div class="header__burger"><img src="./assets/burger-bar.png" alt="Menu"></div>
+</header>
+
+<main>
+    <section class="intro wrapper" >
+        <div class="intro__desc">
+            <span>Best Destinations around the world</span>
+            <h1>Travel, enjoy and live a new and full life</h1>
+            <p>Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.</p>
+            <div class="intro__btns">
+                <button>Find out more</button>
+                <div>
+                    <img src="./assets/intro-btn.png" alt="Button">
+                    <p>Play Demo</p>
+                </div>
+            </div>
+        </div>
+        <div class="intro__background">
+            <img src="./assets/header-img.png" alt="Header img">
+        </div>
+        <div class="header__plane-first"><img src="./assets/plane.png" alt="Plane"></div>
+        <div class="header__plane-second"><img src="./assets/plane.png" alt="Plane"></div>
+    </section>
+
+    <section class="category wrapper" id="hotels">
+        <p class="subHeading">category</p>
+        <h2 class="heading category__right-img">We Offer Best Services <img src="./assets/category-right__img.png" alt="Decore"></h2>
+        <div class="category__blocks">
+            <div class="category__block">
+                <div>
+                    <img src="./assets/category-img.png" alt="category-img">
+                </div>
+                <h6>Calculated Weather</h6>
+                <p>Built Wicket longer admire do barton vanity itself do in it.</p>
+                <div class="category__hover-block"></div>
+            </div>
+
+            <div class="category__block">
+                <div class="not__margin">
+                    <img src="./assets/test.jpg" alt="category-img">
+                </div>
+                <h6 class="pt">Calculated Weather</h6>
+                <p>Built Wicket longer admire do barton vanity itself do in it.</p>
+                <div class="category__hover-block"></div>
+            </div>
+
+            <div class="category__block">
+                <div>
+                    <img src="./assets/category-img2.png" alt="category-img">
+                </div>
+                <h6>Calculated Weather</h6>
+                <p>Built Wicket longer admire do barton vanity itself do in it.</p>
+                <div class="category__hover-block"></div>
+            </div>
+
+            <div class="category__block">
+                <div>
+                    <img src="./assets/category-img3.png" alt="category-img">
+                </div>
+                <h6>Calculated Weather</h6>
+                <p>Built Wicket longer admire do barton vanity itself do in it.</p>
+                <div class="category__hover-block"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="selling wrapper" id="destination">
+        <p class="subHeading">Top Selling</p>
+        <h2 class="heading">Top Destinations</h2>
+        <div class="selling__cards">
+            <div class="selling__card">
+                <div class="selling__card-img">
+                    <img src="./assets/selling-1.png" alt="">
+                </div>
+                <div class="selling__card-desc">
+                    <div>
+                        <p>Rome, Italty</p>
+                        <p>$5,42k</p>
+                    </div>
+                    <p><img src="./assets/navigation-icon.png" alt="Icon">10 Days Trip</p>
+                </div>
+            </div>
+
+            <div class="selling__card">
+                <div class="selling__card-img">
+                    <img src="./assets/selling-2.png" alt="">
+                </div>
+                <div class="selling__card-desc">
+                    <div>
+                        <p>Rome, Italty</p>
+                        <p>$5,42k</p>
+                    </div>
+                    <p><img src="./assets/navigation-icon.png" alt="Icon">10 Days Trip</p>
+                </div>
+            </div>
+
+            <div class="selling__card">
+                <div class="selling__card-img">
+                    <img src="./assets/selling-3.png" alt="selling card">
+                </div>
+                <div class="selling__card-desc">
+                    <div>
+                        <p>Rome, Italty</p>
+                        <p>$5,42k</p>
+                    </div>
+                    <p><img src="./assets/navigation-icon.png" alt="Icon">10 Days Trip</p>
+                </div>
+                <div class="selling-decore"><img src="./assets/selling-decore.png" alt="Decore"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="steps wrapper" id="booking">
+        <div class="steps__container">
+            <div class="steps__desc">
+                <p class="subHeading">Easy and Fast</p>
+                <h2 class="heading">Book your next trip in 3 easy steps</h2>
+                <div class="steps__desc-cards">
+                    <div class="steps__desc-card">
+                        <div class="steps__desc-card__img">
+                            <img src="./assets/steps-card-1.svg" alt="steps card">
+                        </div>
+                        <div class="steps__desc-card__desc">
+                            <h6>Choose Destination</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. </p>
+                        </div>
+                    </div>
+
+                    <div class="steps__desc-card">
+                        <div class="steps__desc-card__img">
+                            <img src="./assets/steps-card-2.svg" alt="steps card">
+                        </div>
+                        <div class="steps__desc-card__desc">
+                            <h6>Make Payment</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. </p>
+                        </div>
+                    </div>
+
+                    <div class="steps__desc-card">
+                        <div class="steps__desc-card__img">
+                            <img src="./assets/steps-card-3.svg" alt="steps card">
+                        </div>
+                        <div class="steps__desc-card__desc">
+                            <h6>Reach Airport on Selected Date</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="steps__card">
+                <div class="steps__card-container">
+                    <div class="steps__card-container__img">
+                        <img src="./assets/steps-card.svg" alt="Step card">
+                    </div>
+                    <h6>Trip To Greece</h6>
+                    <p>14-29 June | by Robbin joseph</p>
+                    <div class="steps__card-container__icons">
+                        <img src="./assets/steps-card-icon-1.svg" alt="Step card">
+                        <img src="./assets/steps-card-icon-2.svg" alt="Step card">
+                        <img src="./assets/steps-card-icon-3.svg" alt="Step card">
+                    </div>
+                    <div class="steps__card-icons__bottom">
+                        <div>
+                            <img src="./assets/steps-card-icon-4.svg" alt="Step icon">
+                            <p>24 people going</p>
+                        </div>
+                        <div>
+                            <img src="./assets/steps-card-icon-5.svg" alt="Step icon">
+                        </div>
+                    </div>
+                </div>
+                <div class="step__card-right">
+                    <div>
+                        <img src="./assets/steps-card-icon-6.svg" alt="steps card">
+                    </div>
+                    <div class="step__card-right__desc">
+                        <p>Ongoing</p>
+                        <h6>Trip to rome</h6>
+                        <p><span>40% </span>completed</p>
+                        <div class="step__card-progressBar">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="testimonials wrapper">
+        <div class="testimonials__title">
+            <p class="subHeading">Testimonials</p>
+            <h2 class="heading">What people say about Us.</h2>
+        </div>
+        <div class="testimonials__card">
+            <img src="./assets/testimonials-avatar.png" alt="Avatar" class="testimonials__card-img">
+            <br>
+            <p>“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
+            <h6>Mike taylor</h6>
+            <p>Lahore, Pakistan</p>
+        </div>
+    </section>
+
+    <section class="partners wrapper" id="flight">
+        <div class="partners__container">
+            <img src="./assets/partners-1.png" alt="partners">
+            <img src="./assets/partners-2.png" alt="partners">
+            <img src="./assets/partners-3.png" alt="partners">
+            <img src="./assets/partners-4.png" alt="partners">
+            <img src="./assets/partners-5.svg" alt="partners">
+        </div>
+    </section>
+
+    <section class="form wrapper">
+        <div class="form__icon"><img src="./assets/form-icon.svg" alt="Form icon"></div>
+        <div class="from__container">
+            <h2>Subscribe to get information, latest news and other interesting offers about Cobham</h2>
+            <form>
+                <div>
+                    <input type="text" placeholder="Your email">
+                    <img src="./assets/input-icon.svg" alt="Input icon">
+                </div>
+                <button>Subscribe</button>
+            </form>
+        </div>
+        <div class="form__decore-left"><img src="./assets/form-decore-left.svg" alt="From decore" /></div>
+        <div class="form__decore-right"><img src="./assets/form-decore-right.svg" alt="From decore" /></div>
+        <div class="form__sector-decore"><img src="./assets/form-sector-decor.svg" alt="Decore"></div>
+    </section>
+
+</main>
+
+<footer class="footer wrapper">
+    <div class="footer__container">
+        <div class="footer__container-text">
+            <h2>Jadoo.</h2>
+            <p>Book your trip in minute, get full Control for much longer.</p>
+        </div>
+        <div class="footer__container-menu">
+            <ul>
+                <li class="footer__container-menu__header">Company</li>
+                <li>About</li>
+                <li>Careers</li>
+                <li>Mobile</li>
+            </ul>
+
+            <ul>
+                <li class="footer__container-menu__header">Contact</li>
+                <li>Help/FAQ</li>
+                <li>Press</li>
+                <li>Affilates</li>
+            </ul>
+
+            <ul>
+                <li class="footer__container-menu__header">More</li>
+                <li>Airlinefees</li>
+                <li>Airline</li>
+                <li>Low fare tips</li>
+            </ul>
+        </div>
+        <div class="footer__container-social">
+            <div class="footer__container-social__icon">
+                <img src="./assets/social-1.png" alt="Social">
+                <img src="./assets/social-2.png" alt="Social">
+                <img src="./assets/social-3.png" alt="Social">
+            </div>
+            <p>Discover our app</p>
+            <div class="footer__container-social__download">
+                <img src="./assets/google-play.png" alt="Google Play">
+                <img src="./assets/play-store.png" alt="Apple Store">
+            </div>
+        </div>
+    </div>
+    <p class="footer__copyryght">All rights reserved@jadoo.co</p>
+</footer>
 
 
 </body>
