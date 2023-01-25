@@ -189,6 +189,7 @@
   align-items: center;
   flex-direction: row;
   margin-top: 35px;
+  cursor: pointer;
 }
 .intro__btns button {
   background: #F1A501;
@@ -203,7 +204,6 @@
   line-height: 23px;
   text-align: center;
   color: #FFFFFF;
-  cursor: pointer;
 }
 .intro__btns div {
   display: flex;
@@ -314,12 +314,15 @@
 .selling__card {
   width: 314px;
   background: #fff;
-  filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
   border-radius: 24px;
   margin-bottom: 50px;
   position: relative;
-  z-index: 999999999999999;
+  z-index: 1;
   margin-right: 50px;
+  transition: 0.25s ease-out;
+}
+.selling__card img {
+  border-radius: 24px;
 }
 .selling__card:last-child {
   margin-right: 0;
@@ -329,7 +332,14 @@
 }
 
 .selling__card-desc {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
   padding: 27px 20px 40px 20px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
 }
 .selling__card-desc div {
   display: flex;
@@ -360,7 +370,7 @@
 
 .selling-decore {
   position: absolute;
-  top: 50%;
+  top: 30%;
   right: -66px;
   z-index: -9999999;
 }
